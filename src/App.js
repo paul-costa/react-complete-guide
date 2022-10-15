@@ -1,9 +1,12 @@
-function App() {
+import ExpenseItem from "./components/ExpenseItem";
+
+const App = () => {
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <h1>Hello World</h1>
+      <ExpenseItem></ExpenseItem>
     </div>
   );
-}
+};
 
 export default App;
